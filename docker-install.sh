@@ -21,8 +21,6 @@ sudo systemctl status docker
 
 sudo usermod -aG docker ${USER}
 
-exec su -l $USER
-
 echo "The following output should show ${USER} and its groups. Please make sure ${USER} is part of docker group. Restart your session if docker group does not show up."
 
 id -nG
