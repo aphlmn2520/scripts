@@ -1,2 +1,8 @@
-# scripts
-different scripts for cURLing 
+# different scripts for cURLing 
+
+Usage:
+``bash
+curl -s 
+``
+
+
