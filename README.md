@@ -2,7 +2,7 @@
 
 Usage:
 ``bash
-curl -s 
+curl -s https://raw.githubusercontent.com/aphlmn2520/scripts/main/<shell-script>.sh | bash
 ``
 
 
