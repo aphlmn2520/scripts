@@ -1,6 +1,7 @@
 #!/bin/bash
 #small installation script for ubuntu 20.04 operating systems. Script adds ${USER} to docker group
 exec 1> docker-install.log 2>&1
+tee docker-install.log
 set -ex
 
 sudo apt update
