@@ -25,13 +25,13 @@ sudo dnf config-manager \
 sudo dnf install docker-ce docker-ce-cli containerd.io
 
 sudo systemctl start docker
-
+sleep 5
 sudo groupadd docker
 
 sudo usermod -aG docker $USER
 
 newgrp docker 
-
+sleep 5
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
