@@ -22,7 +22,7 @@ sudo dnf config-manager \
     https://download.docker.com/linux/fedora/docker-ce.repo
    
 
-sudo dnf install docker-ce docker-ce-cli containerd.io
+sudo dnf install -y docker-ce docker-ce-cli containerd.io
 
 sudo systemctl start docker
 sleep 5
